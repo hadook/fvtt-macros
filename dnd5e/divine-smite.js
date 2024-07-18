@@ -59,7 +59,7 @@ async function rollDamage(html) {
             damage: {parts: [[formula, "radiant"]]},
             actionType: "util"
         }
-    }, {parent: actor});
+    }, {parent: s_actor});
     const roll = await feature.rollDamage({event});
     if (!roll) return;
     const value = data.spells[slot].value - 1;

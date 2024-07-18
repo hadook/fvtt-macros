@@ -12,8 +12,8 @@ if (!token) {
 
 const configs = {
     off:    {bright: 0, dim: 0},
-    on:     {bright: 0, dim: 10, "angle": 360, "color": "#8135c0", "alpha": 0.3, "luminosity": 0.5,
-                animation: {type: "fairy", speed: 3, "intensity": 5, "reverse": false }}
+    on:     {bright: 0, dim: 10, angle: 360, color: "#8135c0", alpha: 0.3, luminosity: 0.5,
+                animation: {type: "fairy", speed: 3, intensity: 5, reverse: false }}
 };
 
 const states = new Set(Object.keys(configs));
