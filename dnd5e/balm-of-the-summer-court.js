@@ -63,6 +63,6 @@ async function rollHealing(html) {
     const roll = await feature.rollDamage({event});
     if (!roll) return;
 
-    const uses = f.system.uses.value - 1;
+    const uses = f.system.uses.value - dice;
     return await f.update({"system.uses.value": uses});
 }
