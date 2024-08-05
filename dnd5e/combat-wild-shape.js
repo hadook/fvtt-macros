@@ -24,7 +24,7 @@ const options = inputs.reduce((acc, [key, crd, values]) => {
 }, "");
 const content = `
 <form class="dnd5e">
-    <p>Select the spell slot to expend for healing.</p>
+    <p>Expend one spell slot to regain 1d8 hit poits per level of the spell slot expended.</p>
     <div class="form-group">
         <label>Spell slot:</label>
         <div class="form-fields">
